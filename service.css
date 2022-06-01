@@ -1,0 +1,79 @@
+body{
+   
+    /* background: url('img/Services/bg.jpeg')no-repeat; */
+    opacity: 0.8;
+}
+
+/* Services Section */
+
+.services{
+    display: flex;
+    margin: 12px 12px;
+    border-radius: 9px;
+    /* border: 2px solid white;
+    background-color: azure;
+    color: black;
+    opacity: 0.5;
+    z-index: -1; */
+}
+
+.service{
+    /* border: 2px solid black; */
+    width: 50%;
+    margin: 12px 12px;
+    padding: 10px 10px;
+    color: black;
+
+
+}
+
+.service h1{
+    font-family: 'Bree Serif', serif;
+    font-size: 2.5rem;
+    width: 50%;
+    margin: 15px auto;
+}
+
+.service p{
+    font-size: 1rem;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+#serviceImg{
+    /* border: 2px solid black; */
+    width: 50%;
+    margin: 12px 12px;
+    padding: 10px 10px;
+    opacity: 1;
+
+}
+
+#serviceImg img{
+    width: 80%;
+    height: 100%;
+} 
+
+
+/* Terms and condition section */
+
+.Condition h1{
+    font-family: 'Bree Serif', serif;
+    font-size: 2.5rem;
+    width: 50%;
+    margin: 5px auto;
+    
+}
+
+.Condition p{
+    font-size: 1rem;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+/* Footer Section */
+.footer{
+    position: sticky;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.8;
+    margin: 0px;
+}

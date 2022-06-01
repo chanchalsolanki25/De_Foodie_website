@@ -1,0 +1,276 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+#navbar::before {
+    content: "";
+    background: url('img/BackgroungImg/bg.jpeg')no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 114vh;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin: 34px 45px;
+    height: 58px;
+
+}
+
+.logo h1 {
+    font-family: 'Bree Serif', serif;
+    font-size: 2.5rem;
+
+}
+
+.logo p {
+    font-size: 1.2rem;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.navMenu ul {
+    display: flex;
+    margin: 0px 69px;
+}
+
+.navMenu ul li {
+    list-style: none;
+
+}
+
+.navMenu ul li a {
+    text-decoration: none;
+    padding: 6px 15px;
+    margin: 4px 7px;
+    font-size: 1.4rem;
+    color: black;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.navMenu ul li a:hover {
+    color: rgb(40, 152, 40);
+}
+
+
+/* Navigations button */
+.buttons {
+    position: absolute;
+    top: 45px;
+    right: 40px;
+}
+
+.btn {
+    padding: 6px 23px;
+    margin: 4px 10px;
+    height: 40px;
+    width: 91px;
+    margin: 0 2px;
+    background-color: rgb(40, 152, 40);
+    text-decoration: none;
+    color: white;
+    font-family: 'Baloo Bhaina 2', cursive;
+    border-radius: 5px;
+
+}
+
+/* heading section  */
+.heading {
+    position: relative;
+    top: 110px;
+    width: 500px;
+    margin: 2px auto;
+    font-size: 2.5rem;
+    font-family: 'Prata', serif;
+}
+
+/* Food category section */
+.foodCategory {
+    height: 100vh;
+}
+
+.foodImage {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 225px;
+}
+
+.food {
+    display: inline-block;
+    width: 23%;
+    border-radius: 23px;
+    margin: 2px 20px;
+    padding: 0px 22px 50px 22px;
+    background-color: white;
+
+
+}
+
+.food img {
+    position: relative;
+    top: -33px;
+    display: block;
+    width: 83%;
+    margin: 2px auto;
+    border-radius: 15px;
+    transition: all 0.5s ease-in-out .3s;
+}
+
+.food img:hover {
+    width: 70%;
+}
+
+.food h3 {
+    font-size: 1.8rem;
+    margin: 12px 4px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.food p {
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: 'Prata', serif;
+    margin: 9px 2px;
+
+}
+
+.food h4 {
+    display: inline-block;
+    font-size: 1.4rem;
+    margin: 12px 4px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.food a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.order {
+    position: relative;
+    top: 15px;
+    right: 10px;
+    padding: 6px 23px;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(40, 152, 40);
+    text-decoration: none;
+    color: white;
+    font-family: 'Baloo Bhaina 2', cursive;
+    border-radius: 5px;
+
+}
+
+/* Food ordering section */
+#orderingFood {
+    display: flex;
+    position: relative;
+    top: 226px;
+    left: 0px;
+    margin: 20px 33px;
+    border-radius: 9px;
+    background-color: whitesmoke;
+}
+
+.imageFood {
+    height: 750px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imageFood h1 {
+    font-family: 'Bree Serif', serif;
+    font-size: 2.5rem;
+    margin: 35px;
+}
+
+#orderingFood img {
+    width: 92%;
+    height: 65%;
+
+}
+
+/* Form section*/
+.form {
+    height: 750px;
+    width: 50%;
+    display: block;
+
+}
+
+.form form {
+    display: block;
+    margin: 50px 0px;
+}
+
+.form form label {
+    display: block;
+    font-size: 1.3rem;
+    width: 80%;
+    font-family: 'Prata', serif;
+    margin: 3px auto;
+}
+
+.form form input,
+textarea {
+    border: none;
+    border-radius: 6px;
+    display: block;
+    width: 80%;
+    margin: 3px auto;
+    padding: 10px;
+    background-color: rgba(198, 191, 191, 0.838);
+}
+
+.form-control {
+    margin: 20px 0px;
+}
+
+.orderBtn {
+    display: block;
+    width: 25%;
+    margin: 25px auto;
+    padding: 20px;
+    border-radius: 7px;
+    border: none;
+    font-size: 1rem;
+    font-family: 'Baloo Bhaina 2', cursive;
+    color: white;
+    background-color: rgb(40, 152, 40);
+    cursor: pointer;
+}
+
+
+.footer{
+    position: relative;
+    top: 700px;
+    left: 0px;
+    margin: 20px 0px;
+    padding: 20px 10px;
+    background-color: black;
+    opacity: 0.7;
+}
+
+.copyright {
+    border: 2px solid black;
+    width: 30%;
+    margin: 2px auto;
+    padding: 3px;
+    font-family: 'Prata', serif;
+    color: white;
+}

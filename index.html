@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@600&family=Bree+Serif&family=Courgette&family=Ubuntu:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@600&family=Bree+Serif&family=Courgette&family=Frank+Ruhl+Libre:wght@300&family=Ubuntu:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>DeFoodie - Online Food Ordering</title>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="logo">
+            <h1>DeFoodie</h1>
+            <p>Online Food Ordering</p>
+        </div>
+        <div class="navMenu">
+            <ul>
+                <li class="item"><a href="#">Home</a></li>
+                <li class="item"><a href="#">Menu</a></li>
+                <li class="item"><a href="services.html">Services</a></li>
+                <li class="item"><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="buttons">
+            <a href="#" class="btn">Login</a>
+            <a href="#" class="btn">Signup</a>
+        </div>
+    </nav>
+
+    <h1 class="heading">ORDER FOOD ANYTIME</h1>
+    <div class="foodCategory">
+        <section class="foodImage">
+            <div class="food">
+                <img src="img/FoodCategory/food1.jpg" alt="" srcset="">
+                <h3>Fried Momos</h3>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <hr>
+                <a href="#" class="order">Order Now</a>
+
+            </div>
+            <div class="food">
+                <img src="img/FoodCategory/food2.jpg" alt="" srcset="">
+                <h3>Burger</h3>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <hr>
+                <a href="#" class="order">Order Now</a>
+            </div>
+            <div class="food">
+                <img src="img/FoodCategory/food3.jpg" alt="" srcset="">
+                <h3>Grilled Chicken</h3>
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <hr>
+                <a href="#" class="order">Order Now</a>
+            </div>
+        </section>
+
+        <section id="orderingFood">
+            <div class="imageFood">
+                <h1>ONLINE ORDERING</h1>
+                <img src="img/OnlineOrdering/pasta.jpg" alt="" srcset="">
+            </div>
+            <div class="form">
+                <form action="">
+                    <div class="form-control">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" placeholder="Name here">
+                    </div>
+
+                    <div class="form-control" id="yourEmail">
+                        <label for="email" id="emailLabel">Your Email</label>
+                        <input type="email" id="email" placeholder="Email here">
+                    </div>
+                    <div class="form-control " id="yourNumber">
+                        <label for="number" id="numberLabel">How can we contact you?</label>
+                        <input type="text" id="number" placeholder="Phone number here">
+                    </div>
+
+                    <div class="form-control">
+                        <label for="city">City/Village</label>
+                        <input type="text" id="city" placeholder="City/village here">
+                    </div>
+
+                    <div class="form-control" id="yourPincode">
+                        <label for="pincode" id="pincodeLabel">Pincode</label>
+                        <input type="text" id="pincode" placeholder="Pincode here">
+                    </div>
+
+                    <div class="form-control">
+                        <label for="textarea">Additional Information</label>
+                        <textarea id="textarea" cols="10" rows="7"></textarea>
+                    </div>
+                    <div id ="successMessage">
+                    <button type="submit" class="orderBtn" id="orderBtn">Place the order</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <section id="footer">
+            <div class="footer">
+                <p class="copyright">Copyright &copy; 2022 www.DeFoodie.com | All rights reserved</p>
+                <p class="copyright">Sunday-Satureday : 9AM-10PM</p>
+            </div>
+
+            </div>
+        </section>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
